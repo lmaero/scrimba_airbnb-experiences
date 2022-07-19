@@ -30,7 +30,7 @@
 }
 
 .card__review:before {
-  background-image: url("../../public/assets/images/star.png");
+  background-image: url("/assets/images/star.png");
   background-size: 14px 14px;
   content: "";
   display: inline-block;

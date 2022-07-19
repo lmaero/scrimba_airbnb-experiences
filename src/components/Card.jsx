@@ -15,7 +15,7 @@ function Card(props) {
       {badgeText && <div className="card__badge">{badgeText}</div>}
       <img
         className="card__image"
-        src={`../../public/assets/images/${coverImg}`}
+        src={`/assets/images/${coverImg}`}
         alt={title}
       />
 
