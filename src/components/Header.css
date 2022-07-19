@@ -1,0 +1,10 @@
+.header {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+  max-height: 70px;
+  padding: 20px 30px;
+}
+
+.header img {
+  height: 25px;
+}

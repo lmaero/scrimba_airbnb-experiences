@@ -1,0 +1,26 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 35px;
+}
+
+.hero__image {
+  align-self: center;
+  max-width: 400px;
+}
+
+.hero__title {
+  color: hsl(0, 0%, 0%);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 110%;
+  margin-bottom: 0;
+}
+
+.hero__para {
+  color: hsl(0, 0%, 15%);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 110%;
+  max-width: 320px;
+}

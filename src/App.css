@@ -1,0 +1,5 @@
+.card__list {
+  display: flex;
+  overflow-x: scroll;
+  padding: 0 35px 20px;
+}
