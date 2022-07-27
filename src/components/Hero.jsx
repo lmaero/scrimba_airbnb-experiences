@@ -1,4 +1,4 @@
-import heroImage from "/assets/images/photo-grid.png";
+import heroImage from "../assets/images/photo-grid.png";
 import "./Hero.css";
 
 function Hero() {

@@ -2,22 +2,23 @@
   color: #222222;
   display: flex;
   flex-direction: column;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 110%;
-  margin-right: 20px;
-  max-width: 175px;
+  margin-bottom: 35px;
+  max-width: 225px;
   position: relative;
 }
 
 .card p {
-  margin: 4px 0;
+  margin: 3px 0;
 }
 
 .card__badge {
   background-color: hsl(0, 0%, 100%);
   border-radius: 3px;
   color: #222222;
+  font-size: 12px;
   font-weight: bold;
   left: 10px;
   padding: 5px;
@@ -30,7 +31,7 @@
 }
 
 .card__review:before {
-  background-image: url("/assets/images/star.png");
+  background-image: url("../assets/images/star.png");
   background-size: 14px 14px;
   content: "";
   display: inline-block;
@@ -40,9 +41,16 @@
 }
 
 .card__review > span {
-  color: #918E9B;
+  color: #918e9b;
 }
 
 .card__desc > span {
   font-weight: bold;
+}
+
+@media screen and (min-width: 500px) {
+  .card {
+    margin-right: 20px;
+    max-width: 170px;
+  }
 }

@@ -15,7 +15,7 @@ function Card(props) {
       {badgeText && <div className="card__badge">{badgeText}</div>}
       <img
         className="card__image"
-        src={`/assets/images/${coverImg}`}
+        src={new URL(`../assets/images/${coverImg}`, import.meta.url).href}
         alt={title}
       />
 

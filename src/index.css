@@ -1,4 +1,6 @@
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   box-sizing: border-box;
 }
 
@@ -9,9 +11,17 @@ body {
 }
 
 #root {
+  align-items: center;
   background-color: hsl(0, 0%, 100%);
-  border-radius: 10px;
-  margin: 20px auto;
-  max-width: 550px;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  #root {
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 700px;
+  }
 }

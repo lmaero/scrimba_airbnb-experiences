@@ -1,5 +1,14 @@
 .card__list {
+  align-items: center;
   display: flex;
-  overflow-x: scroll;
-  padding: 0 35px 20px;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 500px) {
+  .card__list {
+    flex-direction: row;
+    max-width: 90%;
+    overflow-x: scroll;
+    padding: 0 35px 20px;
+  }
 }
